@@ -4,6 +4,12 @@ public class BestPongEver{
 	public static void main(String[] args){
 		GameArena newGame = new GameArena(1000,400);
 		Ball newBall = new Ball(500,200,20,"#75ED16");
+		Rectangle newRectangle1 = new Rectangle (20, 200, 25, 100, "GREY");
+		Rectangle newRectangle2 = new Rectangle (980, 200, 25, 100, "GREY");
+		
+		newGame.addRectangle(newRectangle1);
+		newGame.addRectangle(newRectangle2);
+		
 		newGame.addBall(newBall);
 		Random r = new Random();
 		int low = -20;
@@ -30,6 +36,8 @@ public class BestPongEver{
 			}
 			newBall.setYPosition(y+ymove);
 		}
+		
+		
 		
 
 	}
