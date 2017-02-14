@@ -1,4 +1,5 @@
 /**
+ * Balls
  * Models a simple solid sphere. 
  * This class represents a Ball object. When combined with the GameArena class,
  * instances of the Ball class can be displayed on the screen.
