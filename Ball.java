@@ -18,6 +18,10 @@ public class Ball
   private double xVelocity;
   private double yVelocity;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 049903236fdeabe7e192f1487b0f38cb1eb502f4
 										// Permissable colours are 8 bit hexadecimal
                                         // RGB values in the format #RRGGBB. e.g.
                                         //
@@ -29,10 +33,13 @@ public class Ball
  * Obtains the current speed of ths Ball.
  *@return the speed of this Ball within the GameArena
  */
+<<<<<<< HEAD
  public double getSpeed()
  {
 	 return speed;
  }
+=======
+>>>>>>> 049903236fdeabe7e192f1487b0f38cb1eb502f4
 
 	/**
 	 * Obtains the current position of this Ball.
